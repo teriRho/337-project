@@ -19,7 +19,7 @@ private TTTDatabase database;
 // provide method to launch s intialize; must do TTTDatabase first;
 	public TTTManager(){
 	this.gameIsOver = false;
-	this.currentPlayer = 'x';
+	this.currentPlayer = 'X';
 	}
 
 public void launchapp() {
@@ -54,10 +54,10 @@ while(this.gameIsOver == false){
 
 private changePlayer(this.currentplayer){
 	// changing the player
-if (this.currentPlayer == 'x') {
-		this.currentPlayer='o'
-	elseif (this.currentPlayer=='o'){
-		this.currentPlayer='x';
+if (this.currentPlayer == 'X') {
+		this.currentPlayer='O'
+	elseif (this.currentPlayer=='O'){
+		this.currentPlayer='X';
 	}
 }
 
